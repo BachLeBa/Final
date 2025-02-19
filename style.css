@@ -1,0 +1,112 @@
+.nav1{
+    display: inline-block;
+    width: 100%;
+    
+}
+.nav2{
+    display: block;
+    width: 100%;
+    height: 150pt;
+    background-image: url(https://vetmed.tamu.edu/news/wp-content/uploads/sites/9/2023/05/AdobeStock_472713009.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    display: inline;  
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li{
+    display: inline;
+    color: darkblue;
+}
+
+a{  
+    border: solid;
+    border-width: 0px 3px 3px 0px;
+    border-color: black;
+    background-color: aqua;  
+}
+a:hover{
+    background-color: red;
+}
+
+
+div{
+    width: 100%;
+}
+.div1{
+    background-color: gray;
+}
+.div2{
+    background-color: lightgreen;
+}
+.div21{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    justify-content:space-evenly;
+}
+.div3{
+    background-color: grey;
+}
+.nav3{
+    width: 100%;
+    border: solid;
+    border-color: rgb(213, 106, 124);
+}
+.hoa1{
+    height: auto;
+    width: 100%;
+    opacity: 50%;
+    transition-timing-function: linear;
+    transition-duration: 1s ;
+}
+
+.hoa1:hover{
+    opacity: 100%;
+}
+
+.div22{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hoa2{
+    height: 80pt;
+    width: 60pt;
+    border: solid;
+    border-color: red;
+    border-radius: 50%;
+    transition-duration: 3s;
+}
+.hoa2:hover{
+    opacity: 0%;
+}
+
+.hoa3{
+    height: 80pt;
+    width: 60pt;
+    border: solid;
+    border-color: blueviolet;
+    transition-duration: 3s;
+}
+.hoa3:hover{
+    border-radius: 50%;
+    border-color: red;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.highlight{
+    color: blue;
+    text-decoration: underline;
+}
+
